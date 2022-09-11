@@ -123,8 +123,8 @@ impl Default for PhysicsCubeBundle {
 
 #[derive(Debug, Clone, Component, Default, Reflect, FromReflect, PartialEq, Eq)]
 pub enum PlayerProgress {
-    #[default]
     GettingStarted,
+    #[default]
     HasPortalGun,
     HasImprovedPortalGun,
 }

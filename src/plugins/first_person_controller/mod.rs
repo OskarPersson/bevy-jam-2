@@ -274,7 +274,7 @@ fn process_controller_inputs(
             _ => {}
         }
 
-        const JUMP_SPEED: f32 = 6.0;
+        const JUMP_SPEED: f32 = 3.0;
         if input_state.just_pressed(Actions::Jump) {
             new_velocities.y = JUMP_SPEED;
         }
